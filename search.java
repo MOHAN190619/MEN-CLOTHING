@@ -15,6 +15,7 @@ import java.sql.ResultSet;
 /**
  * Servlet implementation class search
  */
+@WebServlet("/search")
 public class search extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
