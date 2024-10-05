@@ -105,6 +105,7 @@ public class search extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response.setHeader("Access-Control-Allow-Origin,"*");
 		PrintWriter pw=response.getWriter();
 		String name=request.getParameter("user");
 		try {
